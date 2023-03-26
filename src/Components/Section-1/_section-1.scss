@@ -1,0 +1,44 @@
+.section__one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    gap: 2rem;
+    margin: 0 2rem;
+
+    &>.left {
+        &>h1 {
+            color: #D9EFDE;
+            font-size: 4rem;
+        }
+
+        &>p {
+            font-weight: 400;
+            font-size: 19px;
+            align-items: left;
+            color: #D9EFDE;
+        }
+
+        &>.download__btn {
+            background-color: #D9EFDE;
+            border: 0.5px solid #232E26;
+            color: #232E26;
+
+            border-radius: 25px;
+            cursor: pointer;
+            padding: 1rem;
+            transition: ease 0.4s;
+
+            &:hover {
+                background-color: #232E26;
+                color: #D9EFDE;
+            }
+        }
+    }
+
+    &>.right {
+        &>img {
+            border-radius: 8px;
+        }
+    }
+}

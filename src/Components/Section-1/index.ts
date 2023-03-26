@@ -1,0 +1,1 @@
+export {default as SectionOne} from "./section-1"
