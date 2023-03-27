@@ -7,7 +7,7 @@ interface IProps {
 }
 const sidebar = ({setShowSidebar,showSidebar}:IProps) => {
   return (
-    <div className={showSidebar ? "sidebar__container" : "hidden"}>
+    <div className={`${showSidebar ? "sidebar__container" : "hidden"}`}>
       <div className="top">
         <div className="logo">
           <h1>TrailHive</h1>

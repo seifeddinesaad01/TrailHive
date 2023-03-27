@@ -5,9 +5,8 @@ import Sidebar from "../Sidebar/sidebar";
 export const links = ["Feature", "Pricing", "Blog", "About Us"];
 
 const Navbar = () => {
-  const [showSidebar, setShowSidebar] = useState(true);
+  const [showSidebar, setShowSidebar] = useState(false);
   const { width } = useWindow();
-  console.log(width, "width");
   let content: any;
   if (width) {
     width < 900
