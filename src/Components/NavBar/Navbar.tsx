@@ -14,7 +14,7 @@ const Navbar = () => {
           <BiMenuAltRight
             onClick={() => setShowSidebar(!showSidebar)}
             fontSize="2rem"
-            cursor='pointer'
+            // cursor='pointer'
           />
         ))
       : (content = (
@@ -43,9 +43,7 @@ const Navbar = () => {
         </div>
         {content}
       </div>
-        <Sidebar setShowSidebar={setShowSidebar} showSidebar ={showSidebar}/>
-      
-      
+      <Sidebar setShowSidebar={setShowSidebar} showSidebar={showSidebar} />
     </>
   );
 };
