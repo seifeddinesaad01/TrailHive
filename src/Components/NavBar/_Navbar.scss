@@ -1,73 +1,73 @@
 .navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d9efde;
+  border-radius: 40px;
+  padding: 0 2.5rem;
+  & > .logo {
+    & > h1 {
+      // color: #253028;
+    }
+  }
+
+  & > .nav__options {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #D9EFDE;
-    border-radius: 40px;
-    padding: 0 2.5rem;
-    &>.logo {
-        &>h1 {
-            color: #253028;
+    gap: 2rem;
+
+    & > ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      list-style: none;
+      & > a {
+        font-size: 1.2rem;
+        font-weight: 550;
+        color: #232e26;
+        text-decoration: none;
+        &:hover {
+          border-bottom: 2px solid #232e26;
         }
+      }
     }
 
-    &>.nav__options {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
+    & > .buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
 
-        &>ul {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 1rem;
-            list-style: none;
-            & > a {
-                font-size: 1.2rem;
-                font-weight: 550;
-                color: #232E26;
-                text-decoration: none;
-                &:hover{
-                    border-bottom: 2px solid #232E26;
-                }
-            }
+      & > .contact__btn {
+        border: 0.5px solid #232e26;
+        border-radius: 25px;
+        background-color: transparent;
+        padding: 1rem;
+        cursor: pointer;
+        transition: ease 0.4s;
+        font-size: 1.1rem;
+        &:hover {
+          background-color: #232e26;
+          color: #d9efde;
         }
+      }
 
-        &>.buttons {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 1rem;
-            
-            &>.contact__btn {
-                border: 0.5px solid #232E26;
-                border-radius: 25px;
-                background-color: transparent;
-                padding: 1rem;
-                cursor: pointer;
-                transition: ease 0.4s;
-                font-size: 1.1rem;
-                &:hover {
-                    background-color: #232E26;
-                    color: #D9EFDE;
-                }
-            }
-
-            &>.download__btn {
-                background-color: #232E26;
-                border: 0.5px solid #232E26;
-                color: #D9EFDE;
-                border-radius: 25px;
-                cursor: pointer;
-                padding: 1rem;
-                font-size: 1.1rem;
-                transition: ease 0.4s;
-                &:hover {
-                    background-color: #D9EFDE;
-                    color: #232E26;
-                }
-            }
+      & > .download__btn {
+        background-color: #232e26;
+        border: 0.5px solid #232e26;
+        color: #d9efde;
+        border-radius: 25px;
+        cursor: pointer;
+        padding: 1rem;
+        font-size: 1.1rem;
+        transition: ease 0.4s;
+        &:hover {
+          background-color: #d9efde;
+          color: #232e26;
         }
+      }
     }
+  }
 }
