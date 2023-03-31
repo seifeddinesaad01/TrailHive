@@ -1,0 +1,25 @@
+.section__four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: aliceblue;
+    border-radius: 30px;
+    // gap: 2rem;
+    & >.section__title{
+       & > p{
+        color:#232E26;
+        font-size: 1.8rem;
+        text-align: center;
+        letter-spacing: 2px;
+    } 
+    }
+    
+    & >img{
+        width: 98%;
+        height: 77vh;
+        border-radius: 30px;
+        // margin: 2rem;
+    }
+}
