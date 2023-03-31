@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+.main__layout{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
