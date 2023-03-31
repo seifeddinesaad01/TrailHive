@@ -12,8 +12,8 @@ function App() {
        <SectionTwo/> 
        <SectionThree />
      </div>
-    
   );
 }
+
 
 export default App;
