@@ -12,7 +12,7 @@ function App() {
        <SectionOne />
        <SectionTwo/> 
        <SectionThree />
-       <SectionFour/>
+        {/* <SectionFour/>  */}
      </div>
   );
 }
