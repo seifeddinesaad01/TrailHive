@@ -2,7 +2,7 @@ import React from 'react'
 
 const SectionFour = () => {
   return (
-    <div className="section__four">
+    <div className="section__four" id='Blog'>
       <div className="section__title">
         <p>Find new trails to export and <br /> adventure to embark on.</p>
       </div>

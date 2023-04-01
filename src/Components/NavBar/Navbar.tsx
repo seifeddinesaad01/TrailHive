@@ -22,7 +22,7 @@ const Navbar = () => {
             <ul>
               {links.map((link, index) => {
                 return (
-                  <a href="#" key={index}>
+                  <a href={`#${link}`} key={index}>
                     <li>{link}</li>
                   </a>
                 );
@@ -30,7 +30,9 @@ const Navbar = () => {
             </ul>
             <div className="buttons">
               <button className="contact__btn">Contact Us</button>
-              <button className="download__btn">Download the app</button>
+              <button className="download__btn">
+               Download the app
+                </button>
             </div>
           </div>
         ));

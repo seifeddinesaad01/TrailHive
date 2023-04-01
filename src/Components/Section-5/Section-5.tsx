@@ -2,7 +2,7 @@ import React from 'react'
 
 const SectionFive = () => {
   return (
-    <div className="section__five">
+    <div className="section__five" id='About Us'>
       {/* <div className="background">
         <img src="https://wallpaperaccess.com/full/114712.jpg" alt="men and nature" />
       </div> */}

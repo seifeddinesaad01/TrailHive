@@ -1,6 +1,57 @@
-.footer{
-    background-color: #232E26;
-    height: 40vh;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
+.footer {
+  background-color: #232e26;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  display: flex;
+  gap: 6rem;
+  // width: 100%;
+  height: 100%;
+  padding: 2rem;
+  flex-wrap: wrap;
+  & >h1{
+    color: aliceblue;
+  }
+  & > ul {
+    list-style: none;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    & > li {
+      font-size: 1.3rem;
+    }
+  }
+  & > .submit__email {
+    display: flex;
+    gap: 1rem;
+    & > .input__field {
+      & > input {
+        width: 20rem;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #fff;
+        &:focus {
+          outline: none;
+        }
+      }
+      & > p{
+        color: aliceblue;
+      }
+    }
+
+    & > .submit__btn {
+      height: 40px;
+      width: 10rem;
+      border: 1px solid aliceblue;
+      color: aliceblue;
+      border-radius: 30px;
+      background-color: transparent;
+      cursor: pointer;
+      transition: 0.4s ease;
+      &:hover {
+        color: #232e26;
+        background-color: aliceblue;
+      }
+    }
+  }
 }

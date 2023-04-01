@@ -20,7 +20,7 @@ const SectionTwo = () => {
 
     ]
     return (
-        <div className="section__two">
+        <section className="section__two" id='Feature'>
             <div className="section__two-left">
                 <p>Features</p>
                 <h2>Stay Active Healthy</h2>
@@ -37,7 +37,7 @@ const SectionTwo = () => {
                     )
                 })}
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -20,6 +20,15 @@ const Footer = () => {
         <li>Support</li>
         <li>Members</li>
     </ul>
+    <div className="submit__email">
+      <div className="input__field">
+        <input type="text"  placeholder='enter your email'/>
+        <p>By subscribing you agree to with our Privacy Policy</p>
+      </div>
+        <button className="submit__btn">
+          Submit
+        </button>
+    </div>
    </div>
   )
 }
